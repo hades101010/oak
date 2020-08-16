@@ -1,0 +1,376 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*===== Pre CSS =====*/
+body{ margin: 0px; padding: 0px; font-size: 14px; font-weight: normal; color: #333; font-family: 'Poppins'; background: #fff;}
+p, a, span, table, th, tr, td, h1, h2, h3, h4, h5, h6, img, ul, ol, li{  margin: 0; padding: 0; font-family: 'Poppins'; }
+
+.button1{
+	background: transparent;
+	color: #4b3241;
+	font-size: 16px;
+	padding: 10px 25px;
+	border:2px solid #4b3241;
+	border-radius: 4px;
+}
+
+.button1:hover{
+	color: #fff;
+	background: #4b3241;
+	border: 2px solid #4b3241;
+	transition: all ease-in 0.2s;
+}
+
+.button2{
+	background: #4b3241;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 25px;
+	border:2px solid #4b3241;
+	border-radius: 4px;
+}
+
+.top-header{
+	background: #000;
+}
+
+
+.top-header ul {
+	margin: 0;
+	
+}
+
+.top-header .welcome-info ul li{
+	color: #fff;
+	display: inline-block;
+	padding: 10px 0;
+}
+
+.top-header .welcome-contact-info ul{
+	text-align: right;
+}
+
+.top-header .welcome-contact-info ul li{
+	color: #fff;
+	display: inline-block;
+	padding: 6px 0;
+}
+
+.top-header .welcome-contact-info .fa{
+	padding: 5px 6px;
+	border:2px solid #fff;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.top-header .welcome-contact-info .fa-facebook{
+	padding: 5px 8px;
+}
+
+.header{
+	padding: 5px 0;
+	width: 100%;
+	background: #fff;
+}
+
+.header .menu ul{
+	list-style: none;
+	text-align: right;
+	margin: 0;
+}
+
+.header .menu ul li{
+	display: inline-block;
+	padding: 21px 10px;
+}
+
+.header .menu ul li a{
+	color: #000;
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+
+.header .menu ul li a:hover{
+	color: #4b3241;
+}
+
+
+.banner-content {
+	position: relative;
+	color: white;
+}
+
+.banner-content .top-left{
+	position: absolute;
+	top: 35%;
+	left: 8%;
+}
+
+.banner-content .top-left h2{
+	font-size: 50px; 
+	font-weight: bold;
+	color: #fff;
+}
+
+.banner-content .top-left  p{
+	font-size: 25px; 
+	font-family: 'Lato';
+	color: #fff;
+	margin: 0;
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+
+.banner img{
+	background: cover;
+	width: 100%;
+}
+
+
+.welcome{
+	background: #fff;
+	padding: 80px 0;
+}
+
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+.welcome h1{
+	font-size: 30px; 
+	font-weight: bold;
+	color: #4b3241;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.welcome span{
+	
+	color: #6abe4c;
+	font-size: 17px;
+	font-weight: normal;
+}
+
+.welcome p{
+	font-size: 16px; 
+	font-family: 'Lato';
+	color: #000;
+	margin: 0;
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+
+.why-us{
+	background: #f5f5f5;
+	padding: 80px 0;
+	text-align: center;
+}
+
+
+.why-us h2{
+	font-size: 30px; 
+	font-weight: bold;
+	color: #4b3241;
+	margin: 0;
+	margin-bottom: 15px;
+	margin-bottom: 30px;
+}
+
+.why-us span{
+	
+	color: #4b3241;
+	font-weight: normal;
+}
+
+.why-us h3{
+	font-size: 20px; 
+	font-weight: 600;
+	color: #121212;
+	margin-bottom: 15px;
+}
+
+.why-us p{
+	font-size: 16px; 
+	font-family: 'Lato';
+	color: #000;
+	margin: 0;
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+
+.why-us-block{
+	padding: 20px; 
+	border: 1px solid #4b3241;
+	border-radius: 4px;
+}
+
+.why-us-block img{
+	margin: 0 auto;
+}
+
+.who-we-are{
+	background: #fff;
+	padding: 80px 0;
+	text-align: center;
+}
+
+
+.who-we-are h2{
+	font-size: 30px; 
+	font-weight: bold;
+	color: #4b3241;
+	margin: 0;
+	margin-bottom: 15px;
+	margin-bottom: 30px;
+}
+
+.who-we-are p{
+	font-size: 16px; 
+	font-family: 'Lato';
+	color: #333;
+	line-height: 30px;
+
+}
+
+.who-we-are img{
+	margin: 0 auto;
+}
+
+
+.top-footer{
+	background: #323543;
+	padding: 50px 0 20px 0;
+	text-align: center;
+}
+
+.top-footer h2{
+	font-size: 20px; 
+	font-weight: 600;
+	color: #a6a8b2;
+	letter-spacing: 2px;
+	margin: 0;
+	margin-bottom: 15px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+
+.top-footer .social-info ul{
+	list-style: none;
+	margin: 0;
+}
+
+.top-footer .social-info ul li{
+	display: inline-block;	
+	color: #fff;
+	margin: 0 5px;
+}
+
+
+.top-footer .social-info .fa{
+	padding: 8px 9px;
+	border:2px solid #fff;
+	border-radius: 50%;
+	font-size: 18px;
+	
+}
+
+.top-footer .social-info .fa-facebook{
+	padding: 8px 12px;
+}
+
+.top-footer .btm-menu ul{
+	list-style: none;
+	margin: 0;
+}
+
+.top-footer .btm-menu ul li{
+	display: inline-block;
+	padding:  30px 20px 10px 20px;
+}
+
+.top-footer .btm-menu ul li a{
+	color: #fff;
+	font-weight: 600;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+.top-footer .contact  p{
+	color: #fff;
+	font-size: 15px;
+	line-height: 30px;
+
+}
+
+
+.footer{
+	background: #323543;
+	border-top: 1px solid #4a4a4d;
+	padding: 10px 0;
+}
+
+.footer p{
+	color:  #fff;
+	font-size: 12px;
+	text-align: center;
+	margin: 0;
+}
+
+.page{ 
+	background: #fff; 
+	padding: 80px 0; 
+}
+
+.page{ 
+	background: #fff; 
+	padding: 80px 0; 
+}
+
+.small-banner img{
+	width: 100%;
+	background: cover;
+}
+
+.page h2{ 
+	text-align: center;
+	font-size: 30px; 
+	font-weight: bold;
+	color: #4b3241;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.page h3{ 
+	font-size: 22px; 
+	font-weight: 600;
+	color: #4b3241;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+
+.page  p{
+	color: #000;
+	font-size: 16px;
+	font-family: 'Lato';
+	line-height: 30px;
+
+}
+
+.page .fa{
+	color: #4b3241;
+}
+
+
+.page img{
+	margin-bottom: 15px;
+}
